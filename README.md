@@ -1,14 +1,14 @@
-#Testmodule
+# Testmodule
 Модуль для тестирования обучающихся. Курсовая работа.
 
-##Требования
+## Требования
 - laravel@8.*
 - composer@2.*
 - laravel/ui@^3.2
 ```
 composer require laravel/ui
 ```
-##Установка
+## Установка
 В composer.json проекта добавить
 ```json
 "repositories": [
@@ -32,7 +32,7 @@ php artisan testmodule::install
 
 Модуль будет доступен по <домен>/tests для авторизованного пользователя.
 
-##Troubleshooting
+## Если ошибки..................
 
 - PHP Fatal error:  Allowed memory size of ??? bytes exhausted
 _php.ini_
